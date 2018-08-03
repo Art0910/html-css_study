@@ -9,103 +9,113 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="header__menu">
-            <ul class="header__list">
-                <li><a class="header__a" href="index.html">Главная</a></li>
-                <li><a class="header__a" href="products.html">Каталог</a></li>
-                <li><a class="header__a" href="contacts.html">Контакты</a></li>
-            </ul>
-        </div>
-        <div class="header__logo">
-            <a href="index.html">
+    <div class="body-container">
+        <div class="container">
+            <div class="header">
+                <div class="header__logo">
+                    <a href="index.html">
                 <img class="header__logo-img" src="Logo.jpg" alt="Логотип магазин сладостей">
             </a>
+                </div>
+                <div class="header__menu">
+                    <ul class="header__list">
+                        <li class="header__list-item"><a class="header__a" href="index.html">Главная</a></li>
+                        <li class="header__list-item"><a class="header__a" href="products.html">Каталог</a></li>
+                        <li class="header__list-item"><a class="header__a" href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-page">
+                <hr>
+                <h1>Жвачка Love Is</h1>
+                <div class="product-info overflow_hidden">
+                    <div class="product-img">
+                        <a href="product_imgs/love_is.jpg" target="_blank">
+				<img class="product-img__img" src="product_imgs/love_is.jpg" alt="Жвачка 'Love Is'" title="Жвачка 'Love Is'">
+				</a>
+                    </div>
+                    <h2 class="product-page__h2 overflow_hidden">Описание товара</h2>
+                    <p class="product-page__descr-short product-page__p overflow_hidden">Коробка жвачки Love Is с различными вкусами</p>
+                    <button class="product-page__buy-btn overflow_hidden">Купить</button>
+                </div>
+                <h2 class="product-page__h2">Характеристики товара</h2>
+                <ul class="prod_features">
+                    <li><span class="prod-features__headers">Состав:</span> экстракт резинового дерева, ароматизаторы
+                        <br/>
+                    </li>
+                    <li><span class="prod-features__headers">Упаковка:</span> 50 шт в коробке
+                        <br/>
+                    </li>
+                    <li><span class="prod-features__headers">Вкус:</span> клубника-банан, яблоко-киви, лимон-арбуз
+                        <br/>
+                    </li>
+                </ul>
+                <div class="prod-char-table">
+                    <table class="prod-char-table__table">
+                        <caption>Технические характеристики</caption>
+                        <colgroup></colgroup>
+                        <colgroup class="prod-char-table__colgroup1">
+                            <col>
+                            <col>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th class="prod-char-table__header-th prod-char-table__cell">Head 1</th>
+                                <th class="prod-char-table__header-th prod-char-table__cell">Head 2</th>
+                                <th class="prod-char-table__header-th prod-char-table__cell">Head 3</th>
+                                <th class="prod-char-table__header-th prod-char-table__cell">Head 4</th>
+                                <th class="prod-char-table__header-th prod-char-table__cell">Head 5</th>
+                            </tr>
+                        </thead>
+                        <tfoot class="prod-char-table__tfoot">
+                            <tr>
+                                <td class="prod-char-table__cell" colspan="5">Вот такие дела!</td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell" rowspan="2" colspan="2">Для жевачки собых
+                                    <br>характеристик нет</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
+                            </tr>
+                            <tr>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
+                            </tr>
+                            <tr>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 4</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 5</td>
+                            </tr>
+                            <tr>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 4</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 class="product-page__h2">Подробное описание товара</h2>
+                <p class="product-page__descr-long product-page__p">Кто не помнит старую добрую жвачку <u>Love Is</u> ? Напоминаем - каждая жвачка в виде аккуратного кирпичика обернута в узнаваемый вкладыш с картинкой про любовь.</p>
+                <h2 class="product-page__h2">Вкусовые качества</h2>
+                <p class="product-page__p">Сначала жеская, но мягчеющая на считанные секунды жвачка с ярким насыщенным фруктовым вкусом - для любителей громких сладостей.</p>
+                <h2 class="product-page__h2">Как употреблять</h2>
+                <p class="product-page__p">Лучше всего Love Is жевать в течение 5 мин сразу после приема пищи, т.е. 4-5 раз в день.</p>
+            </div>
+            <div class="footer">
+                <hr>
+                <p class="footer__p">
+                    &copy; Все права защищены.
+                </p>
+            </div>
         </div>
-    </div>
-    <div class="product-page">
-        <hr>
-        <h1>Жвачка Love Is</h1>
-        <div class="product-img">
-            <a href="product_imgs/love_is.jpg" target="_blank">
-		<img class="product-img__img" src="product_imgs/love_is.jpg" alt="Жвачка 'Love Is'" title="Жвачка 'Love Is'">
-	</a>
-        </div>
-        <h2 class="product-page__h2">Описание товара</h2>
-        <p class="product-page__descr-short product-page__p">Коробка жвачки Love Is с различными вкусами</p>
-        <h2 class="product-page__h2">Характеристики товара</h2>
-        <ul class="prod_features">
-            <li><span class="prod-features__headers">Состав:</span> экстракт резинового дерева, ароматизаторы
-                <br/>
-            </li>
-            <li><span class="prod-features__headers">Упаковка:</span> 50 шт в коробке
-                <br/>
-            </li>
-            <li><span class="prod-features__headers">Вкус:</span> клубника-банан, яблоко-киви, лимон-арбуз
-                <br/>
-            </li>
-        </ul>
-        <div class="prod-char-table">
-            <table class="prod-char-table__table">
-                <caption>Технические характеристики</caption>
-                <colgroup></colgroup>
-                <colgroup class="prod-char-table__colgroup1">
-                    <col>
-                    <col>
-                </colgroup>
-                <thead>
-                    <tr>
-                        <th class="prod-char-table__header-th prod-char-table__cell">Head 1</th>
-                        <th class="prod-char-table__header-th prod-char-table__cell">Head 2</th>
-                        <th class="prod-char-table__header-th prod-char-table__cell">Head 3</th>
-                        <th class="prod-char-table__header-th prod-char-table__cell">Head 4</th>
-                        <th class="prod-char-table__header-th prod-char-table__cell">Head 5</th>
-                    </tr>
-                </thead>
-                <tfoot class="prod-char-table__tfoot">
-                    <tr>
-                        <td class="prod-char-table__cell" colspan="5">Вот такие дела!</td>
-                    </tr>
-                </tfoot>
-                <tbody>
-                    <tr>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell" rowspan="2" colspan="2">Для жевачки собых
-                            <br>характеристик нет</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
-                    </tr>
-                    <tr>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
-                    </tr>
-                    <tr>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 4</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 5</td>
-                    </tr>
-                    <tr>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 4</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 5</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <h2 class="product-page__h2">Подробное описание товара</h2>
-        <p class="product-page__descr-long product-page__p">Кто не помнит старую добрую жвачку <u>Love Is</u> ? Напоминаем - каждая жвачка в виде аккуратного кирпичика обернута в узнаваемый вкладыш с картинкой про любовь.</p>
-        <h2 class="product-page__h2">Вкусовые качества</h2>
-        <p class="product-page__p">Сначала жеская, но мягчеющая на считанные секунды жвачка с ярким насыщенным фруктовым вкусом - для любителей громких сладостей.</p>
-        <h2 class="product-page__h2">Как употреблять</h2>
-        <p class="product-page__p">Лучше всего Love Is жевать в течение 5 мин сразу после приема пищи, т.е. 4-5 раз в день.</p>
-    </div>
-    <div class="footer">
-        <hr> &copy; Все права защищены.
     </div>
 </body>
 

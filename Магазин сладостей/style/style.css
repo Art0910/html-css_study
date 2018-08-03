@@ -3,15 +3,27 @@ body {
 }
 
 
+/*Блок контейнер*/
+
+.body-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    width: 1000px;
+}
+
+
 /*header (меню и лого)*/
 
 .header {
     width: 100%;
     height: 100px;
-}
-
-.header__menu {
-    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../header_background_candies.jpg");
 }
 
 .header__a {
@@ -20,8 +32,22 @@ body {
     font-family: monospace;
 }
 
+.header__menu {
+    background-color: white;
+}
+
 .header__list {
     list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__list-item {
+    margin-right: 15px;
+}
+
+.header__list-item:last-child {
+    margin-right: 20px;
 }
 
 .header__a:hover {
@@ -29,19 +55,32 @@ body {
 }
 
 .header__logo {
-    float: right;
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .header__logo-img {
-    width: 100px;
+    height: 100px;
+}
+
+.header__logo a {
+    display: flex;
 }
 
 
 /*Footer*/
 
 .footer {
-    margin-top: 15px;
+    background-color: #dde9f7;
+    height: 40px;
+    position: relative;
+}
+
+.footer__p {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    margin: 0px;
 }
 
 
@@ -58,7 +97,12 @@ body {
 }
 
 
+
 /*Страница с продуктом*/
+
+.overflow_hidden {
+    overflow: hidden;
+}
 
 .product-page__h2 {
     color: black;
@@ -70,6 +114,8 @@ body {
 .product-img__img {
     outline: 1px solid #4d92ad;
     width: 200px;
+    margin: 1px 20px 20px 1px;
+    float: left;
 }
 
 .product-img__img:hover {
@@ -81,6 +127,19 @@ body {
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+}
+
+.product-page__buy-btn {
+    background-color: #2ff;
+    font-size: 25px;
+}
+
+.product-page__buy-btn:hover {
+    background-color: red;
+}
+
+.product-page__buy-btn:active {
+    background-color: #2f3;
 }
 
 .roduct-page__descr-long {
@@ -107,6 +166,7 @@ body {
     font-family: cursive;
     font-size: 1.5em;
 }
+
 
 
 /*Таблица "Технические характеристики" на странице продукта*/
@@ -141,6 +201,7 @@ body {
     text-align: center;
     background-color: #00ffd02e;
 }
+
 
 
 /*Страница с контактами*/

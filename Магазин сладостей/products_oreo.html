@@ -9,98 +9,108 @@
 </head>
 
 <body class="product">
-    <div class="header">
-        <div class="header__menu">
-            <ul class="header__list">
-                <li><a class="header__a" href="index.html">Главная</a></li>
-                <li><a class="header__a" href="products.html">Каталог</a></li>
-                <li><a class="header__a" href="contacts.html">Контакты</a></li>
-            </ul>
-        </div>
-        <div class="header__logo">
-            <a href="index.html">
+    <div class="body-container">
+        <div class="container">
+            <div class="header">
+                <div class="header__logo">
+                    <a href="index.html">
                 <img class="header__logo-img" src="Logo.jpg" alt="Логотип магазин сладостей">
             </a>
+                </div>
+                <div class="header__menu">
+                    <ul class="header__list">
+                        <li class="header__list-item"><a class="header__a" href="index.html">Главная</a></li>
+                        <li class="header__list-item"><a class="header__a" href="products.html">Каталог</a></li>
+                        <li class="header__list-item"><a class="header__a" href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-page">
+                <hr>
+                <h1>Печенье "OREO"</h1>
+                <div class="product-info overflow_hidden">
+                    <div class="product-img">
+                        <a href="product_imgs/oreo.jpg" target="_blank">
+					<img class="product-img__img" src="product_imgs/oreo.jpg" alt="Печенье 'OREO'" title="Печенье 'OREO'">
+				</a>
+                    </div>
+                    <h2 class="product-page__h2 overflow_hidden">Описание товара</h2>
+                    <p class="product-page__descr-short product-page__p overflow_hidden">Шоколадное печенье "OREO" с нежной молочной начинкой</p>
+                    <button class="product-page__buy-btn overflow_hidden">Купить</button>
+                </div>
+                <h2 class="product-page__h2">Характеристики товара</h2>
+                <ul class="prod_features">
+                    <li><span class="prod-features__headers">Состав:</span> шоколад, молоко, орехи, пальмовое масло
+                        <br/>
+                    </li>
+                    <li><span class="prod-features__headers">Упаковка:</span> 10 шт в коробке
+                        <br/>
+                    </li>
+                    <li><span class="prod-features__headers">Вкус:</span> молочный шоколад
+                        <br/>
+                    </li>
+                </ul>
+                <div class="prod-char-table">
+                    <table class="prod-char-table__table">
+                        <caption>Технические характеристики</caption>
+                        <colgroup></colgroup>
+                        <colgroup class="prod-char-table__colgroup1">
+                            <col>
+                            <col>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th class="prod-char-table__header-th prod-char-table__cell">Head 1</th>
+                                <th class="prod-char-table__header-th prod-char-table__cell">Head 2</th>
+                                <th class="prod-char-table__header-th prod-char-table__cell">Head 3</th>
+                                <th class="prod-char-table__header-th prod-char-table__cell">Head 4</th>
+                                <th class="prod-char-table__header-th prod-char-table__cell">Head 5</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell" rowspan="2" colspan="2">Для печенья собых
+                                    <br>характеристик нет</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
+                            </tr>
+                            <tr>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
+                            </tr>
+                            <tr>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 4</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 5</td>
+                            </tr>
+                            <tr>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 4</td>
+                                <td class="prod-char-table__body-td prod-char-table__cell">cell 5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 class="product-page__h2">Подробное описание товара</h2>
+                <p class="product-page__descr-long product-page__p">Всеми любимое печенье родом из 90х с непревзойденным узнаваемым вкусом, которое понравится не только матерым олдырям, но и новоиспеченным любителям заморских сладостей. </p>
+                <h2 class="product-page__h2">Вкусовые качества</h2>
+                <p class="product-page__p">Слегка хрустящее печенье с ярковыраженным шоколадным вкусом, плотная молочная начинка с приятным кисловатым привкусом.</p>
+                <h2 class="product-page__h2">Как употреблять</h2>
+                <p class="product-page__p">Лучше всего печенье "OREO" сочетается с черным несладким горячим чаем, либо прохладным молоком.</p>
+            </div>
+            <div class="footer">
+                <hr>
+                <p class="footer__p">
+                    &copy; Все права защищены.
+                </p>
+            </div>
         </div>
-    </div>
-    <div class="product-page">
-        <hr>
-        <h1>Печенье "OREO"</h1>
-        <div class="product-img">
-            <a href="product_imgs/oreo.jpg" target="_blank">
-		<img class="product-img__img" src="product_imgs/oreo.jpg" alt="Печенье 'OREO'" title="Печенье 'OREO'">
-	</a>
-        </div>
-        <h2 class="product-page__h2">Описание товара</h2>
-        <p class="product-page__descr-short product-page__p">Шоколадное печенье "OREO" с нежной молочной начинкой</p>
-        <h2 class="product-page__h2">Характеристики товара</h2>
-        <ul class="prod_features">
-            <li><span class="prod-features__headers">Состав:</span> шоколад, молоко, орехи, пальмовое масло
-                <br/>
-            </li>
-            <li><span class="prod-features__headers">Упаковка:</span> 10 шт в коробке
-                <br/>
-            </li>
-            <li><span class="prod-features__headers">Вкус:</span> молочный шоколад
-                <br/>
-            </li>
-        </ul>
-        <div class="prod-char-table">
-            <table class="prod-char-table__table">
-                <caption>Технические характеристики</caption>
-                <colgroup></colgroup>
-                <colgroup class="prod-char-table__colgroup1">
-                    <col>
-                    <col>
-                </colgroup>
-                <thead>
-                    <tr>
-                        <th class="prod-char-table__header-th prod-char-table__cell">Head 1</th>
-                        <th class="prod-char-table__header-th prod-char-table__cell">Head 2</th>
-                        <th class="prod-char-table__header-th prod-char-table__cell">Head 3</th>
-                        <th class="prod-char-table__header-th prod-char-table__cell">Head 4</th>
-                        <th class="prod-char-table__header-th prod-char-table__cell">Head 5</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell" rowspan="2" colspan="2">Для печенья собых
-                            <br>характеристик нет</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
-                    </tr>
-                    <tr>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
-                    </tr>
-                    <tr>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 4</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 5</td>
-                    </tr>
-                    <tr>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 1</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 2</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 3</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 4</td>
-                        <td class="prod-char-table__body-td prod-char-table__cell">cell 5</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <h2 class="product-page__h2">Подробное описание товара</h2>
-        <p class="product-page__descr-long product-page__p">Всеми любимое печенье родом из 90х с непревзойденным узнаваемым вкусом, которое понравится не только матерым олдырям, но и новоиспеченным любителям заморских сладостей. </p>
-        <h2 class="product-page__h2">Вкусовые качества</h2>
-        <p class="product-page__p">Слегка хрустящее печенье с ярковыраженным шоколадным вкусом, плотная молочная начинка с приятным кисловатым привкусом.</p>
-        <h2 class="product-page__h2">Как употреблять</h2>
-        <p class="product-page__p">Лучше всего печенье "OREO" сочетается с черным несладким горячим чаем, либо прохладным молоком.</p>
-    </div>
-    <div class="footer">
-        <hr> &copy; Все права защищены.
     </div>
 </body>
 
