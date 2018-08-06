@@ -4,14 +4,9 @@ body {
 
 
 /*Блок контейнер*/
-
-.body-container {
-    display: flex;
-    justify-content: space-around;
-}
-
 .container {
     width: 1000px;
+    margin: 0 auto;
 }
 
 
@@ -112,14 +107,14 @@ body {
 }
 
 .product-img__img {
-    outline: 1px solid #4d92ad;
+    border: 1px solid #4d92ad;
     width: 200px;
     margin: 1px 20px 20px 1px;
     float: left;
 }
 
 .product-img__img:hover {
-    outline: 0px;
+    border-color: transparent;
 }
 
 .product-page__descr-short {
